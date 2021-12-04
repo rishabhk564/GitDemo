@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.241">
+<testcase classname="Application Login" name="Home page default login" time="0.063">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on landing page...............................................passed
+When User login in to application with Rishabh and 12347....................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 2" time="0.002">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on landing page...............................................passed
+When User login in to application with Risha and 1236.......................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 3" time="0.005">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on landing page...............................................passed
+When User login in to application with Ris and 12347........................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 4" time="0.003">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started............................................passed
+Given User is on landing page...............................................passed
+When User login in to application with Ri and 12366.........................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login" time="0.003">
+<system-out><![CDATA[Given User is on landing page...............................................passed
+When User login into application with "Rishabh" and "1234"..................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "true"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 2" time="0.002">
+<system-out><![CDATA[Given User is on landing page...............................................passed
+When User login into application with "John" and "2345".....................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 3" time="0.001">
+<system-out><![CDATA[Given User is on landing page...............................................passed
+When User login into application with "John" and "2345".....................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "false".............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login 4" time="0.001">
+<system-out><![CDATA[Given User is on landing page...............................................passed
+When User login into application with "John" and "2345".....................passed
+Then Home page is populated.................................................passed
+And Cards are displayed "false".............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
