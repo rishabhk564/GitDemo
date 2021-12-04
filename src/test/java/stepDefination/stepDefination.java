@@ -14,6 +14,7 @@ public class stepDefination {
 
     @Given("^Validate the browser$")
     public void validate_the_browser() throws Throwable {
+       System.out.println("Git Change successful");
        System.out.println("Validate the browse");
     }
 
