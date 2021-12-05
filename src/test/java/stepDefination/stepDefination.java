@@ -19,6 +19,7 @@ public class stepDefination {
     public void validate_the_browser() throws Throwable {
        System.out.println("Git Change successful");
        System.out.println("Validate the browse");
+       System.out.println("Data driven TC added");
     }
 
     @When("^Browser is triggered$")
