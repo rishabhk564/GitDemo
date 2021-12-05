@@ -26,3 +26,12 @@ Given User is on landing page
 When User login into application with "John" and "2345"
 Then Home page is populated
 And Cards are displayed "false"
+
+@SanityTest
+Scenario: Home page default login
+Given User is on landing page
+When User signup with these details
+| rishabhk889 | rishabh@hsg.com | India | 907997887887 | 
+Then Home page is populated
+And Cards are displayed "false"
+

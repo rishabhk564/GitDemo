@@ -1,7 +1,10 @@
 package stepDefination;
 
+import java.util.List;
+
 import org.junit.runner.RunWith;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -56,4 +59,22 @@ public class stepDefination {
 	   System.out.println(username);
 	   System.out.println(password);
 	
-}}
+	   
+}
+	@When("User signup with these details") 
+	public void user_signup_with_these_details(DataTable datatable) throws Throwable{
+		
+		List<List<String>> obj=datatable.asLists();
+		System.out.println(obj.get(0).get(0));
+		System.out.println(obj.get(0).get(1));
+		System.out.println(obj.get(0).get(2));
+		System.out.println(obj.get(0).get(3));
+		
+	 
+
+	}	
+
+
+
+
+}
